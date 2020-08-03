@@ -28,7 +28,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: gcr.io/accl-19-dev/recommendationservice:rel013019
+        image: gcr.io/accl-19-dev/recommendationservice:rel013019fix
         imagePullPolicy: Always
         ports:
         - containerPort: 8080

@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: gcr.io/accl-19-dev/frontend:rel013019
+          image: gcr.io/accl-19-dev/frontend:rel013019fix
           imagePullPolicy: Always
           ports:
           - containerPort: 8080
