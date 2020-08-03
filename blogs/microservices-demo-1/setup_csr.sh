@@ -27,13 +27,13 @@ cd tmp/master
 pwd
 git clone https://github.com/blipzimmerman/microservices-demo-1 
 cd microservices-demo-1
-git remote add apm-demo https://source.developers.google.com/p/$DEVSHELL_PROJECT_ID/r/$CSR_REPO_NAME
+git remote add apm-demo https://source.developers.google.com/p/$PROJECT_ID/r/$CSR_REPO_NAME
 git push apm-demo master
 
 cd ../../error
 git clone -b APM-Troubleshooting-Demo-2 https://github.com/blipzimmerman/microservices-demo-1 
 cd microservices-demo-1
-git remote add apm-demo-error https://source.developers.google.com/p/$DEVSHELL_PROJECT_ID/r/$CSR_REPO_NAME
+git remote add apm-demo-error https://source.developers.google.com/p/$PROJECT_ID/r/$CSR_REPO_NAME
 git push apm-demo-error APM-Troubleshooting-Demo-2
 
 # Clean everything up
